@@ -15,7 +15,7 @@ export default function Landing() {
         <div className="relative max-w-[1320px] w-full mx-auto overflow-hidden bg-[url(/AdobeStock.jpeg)] bg-cover bg-center pt-[238px] max-[979px]:pt-[240px] max-[549px]:pt-[56px] pb-[230px] rounded-[20px]">
           <div className="absolute inset-0 opacity-10 bg-black" />
           <div className="relative items-center justify-center text-center max-sm:traslate-y-[-60px] max-[979px]:space-y-[10px] space-y-[20px] content-center">
-            <div className="text-[80px] max-[979px]:text-[70px] max-[549px]:text-[50px] max-w-[647px] max-[979px]:max-w-[599px] leading-[80px] mx-auto font-bold font-dm text-white text-center">
+            <div className="text-[80px] leading-[80px] max-w-[700px] mx-auto font-bold font-dm text-white text-center">
               The real meaning to personal
             </div>
             <div className=" max-w-[562px] mx-auto font-medium leading-[26px] text-center text-[20px] font-jetbrains-mono text-white">
@@ -26,7 +26,7 @@ export default function Landing() {
         </div>
         <div
           id="linkGenerate"
-          className="bg-[#494af8] max-w-[1096px] w-[76.112%] max-[979px]:max-w-[96.5] max-[979px]:w-full absolute z-50 bottom-[-6%] max-[1160px]:bottom-[-16.3%] right-auto left-1/2 max-[979px]:right-[15px] max-[979px]:left-[15px] min-[979px]:transform min-[979px]:-translate-x-1/2 min-[979px]:mx-auto rounded-[20px]"
+          className="bg-[#494af8] max-w-[1096px] absolute z-50 bottom-[-10%] max-[1160px]:bottom-[-16.3%] right-auto left-1/2 max-[979px]:right-[15px] max-[979px]:left-[15px] min-[979px]:transform min-[979px]:-translate-x-1/2 min-[979px]:mx-auto rounded-[20px]"
         >
           <div className="py-[28px] px-[24px] text-[17px] leading-[24px] text-white font-medium font-dm text-center">
             Click the button below to receive your random link that you can
@@ -192,7 +192,7 @@ export default function Landing() {
           </div>
           <div className="max-w-[1320px] mx-auto">
             <div
-              className="absolute w-[80px] h-[80px] justify-center border-white border-[2px] bg-[#494AF8] rounded-full max-w-none content-center right-0 mr-[60px] mt-[-40px] cursor-pointer"
+              className="absolute w-[80px] h-[80px] flex justify-center items-center border-white border-[2px] bg-[#494AF8] rounded-full max-w-none right-0 mr-[60px] mt-[-40px] cursor-pointer"
               onClick={handleScrollToTop}
             >
               <Image

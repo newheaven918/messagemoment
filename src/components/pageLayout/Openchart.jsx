@@ -5,11 +5,11 @@ export default function Openchart() {
   const [mousehover, setMousehover] = useState(false);
   const [number, setNumber] = useState(1);
 
-  const handleMouseEnter = (number: number) => {
+  const handleMouseEnter = (number) => {
     setMousehover(true);
     setNumber(number);
   };
-  const handleMouseEvent = (number: number) => {
+  const handleMouseEvent = (number) => {
     setMousehover(false);
     setNumber(number);
   };

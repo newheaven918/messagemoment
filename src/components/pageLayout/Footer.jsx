@@ -4,14 +4,14 @@ import { useRouter } from "next/router";
 export default function Footer() {
   const router = useRouter();
 
-  const navigateToPage = (path: string) => {
+  const navigateToPage = (path) => {
     router.push(path);
   };
 
-  const openPageInNewTab = (url: string) => {
+  const openPageInNewTab = (url) => {
     window.open(url, "_blank");
   };
-  const openEmailClient = (emailAddress: string) => {
+  const openEmailClient = (emailAddress) => {
     // Use window.open with the 'mailto:' protocol
     window.open(`mailto:${emailAddress}`, "_blank");
   };
@@ -67,38 +67,42 @@ export default function Footer() {
           Copyright © 2024 MessageMoment. All rights reserved.
         </div>
         <div className="flex flex-1 text-center justify-center gap-[15px] items-center max-[979px]:order-2 max-[979px]:pb-[30px]">
-          <Image
-            src="/X.png"
-            alt="X"
-            className="w-[22px] h-[22px] cursor-pointer"
-            onClick={() => openPageInNewTab("https://www.twitter.com/")}
-            width={22}
-            height={22}
-          />
-          <Image
-            src="/Instagram.png"
-            alt="Instagram"
-            className="w-[22px] h-[22px] cursor-pointer"
-            onClick={() => openPageInNewTab("https://www.instagram.com/")}
-            width={22}
-            height={22}
-          />
-          <Image
-            src="/Facebook.png"
-            alt="Facebook"
-            className="w-[24.06px] h-[24px] cursor-pointer"
-            onClick={() => openPageInNewTab("https://www.facebook.com/")}
-            width={22}
-            height={22}
-          />
-          <Image
-            src="/Youtube.png"
-            alt="Youtube"
-            className="w-[27.5px] h-[22px] cursor-pointer"
-            onClick={() => openPageInNewTab("https://www.youtube.com/")}
-            width={22}
-            height={22}
-          />
+          <div onClick={() => openPageInNewTab("https://www.twitter.com/")}>
+            <Image
+              src="/X.png"
+              alt="X"
+              className="w-[22px] h-[22px] cursor-pointer"
+              width={22}
+              height={22}
+            />
+          </div>
+          <div onClick={() => openPageInNewTab("https://www.instagram.com/")}>
+            <Image
+              src="/Instagram.png"
+              alt="Instagram"
+              className="w-[22px] h-[22px] cursor-pointer"
+              width={22}
+              height={22}
+            />
+          </div>
+          <div onClick={() => openPageInNewTab("https://www.facebook.com/")}>
+            <Image
+              src="/Facebook.png"
+              alt="Facebook"
+              className="w-[24.06px] h-[24px] cursor-pointer"
+              width={22}
+              height={22}
+            />
+          </div>
+          <div onClick={() => openPageInNewTab("https://www.youtube.com/")}>
+            <Image
+              src="/Youtube.png"
+              alt="Youtube"
+              className="w-[27.5px] h-[22px] cursor-pointer"
+              width={22}
+              height={22}
+            />
+          </div>
         </div>
         <div className="flex flex-1 gap-[10px] items-center justify-end">
           <div className="text-[#555555] text-[13px] font-medium">

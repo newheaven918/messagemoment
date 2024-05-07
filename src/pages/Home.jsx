@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Openchart from "@/components/Openchart";
-import Slider from "@/components/Slider";
+import Openchart from "@/components/pageLayout/Openchart";
+import Slider from "@/components/pageLayout/Slider";
 
 export default function Landing() {
   const handleScrollToTop = () => {
@@ -24,10 +24,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div
-          id="linkGenerate"
-          className="bg-[#494af8] max-w-[1096px] absolute z-50 bottom-[-10%] max-[1160px]:bottom-[-16.3%] right-auto left-1/2 max-[979px]:right-[15px] max-[979px]:left-[15px] min-[979px]:transform min-[979px]:-translate-x-1/2 min-[979px]:mx-auto rounded-[20px]"
-        >
+        <div className="bg-[#494af8] max-w-[1096px] absolute z-50 bottom-[-10%] max-[1160px]:bottom-[-16.3%] right-auto left-1/2 max-[979px]:right-[15px] max-[979px]:left-[15px] min-[979px]:transform min-[979px]:-translate-x-1/2 min-[979px]:mx-auto rounded-[20px]">
           <div className="py-[28px] px-[24px] text-[17px] leading-[24px] text-white font-medium font-dm text-center">
             Click the button below to receive your random link that you can
             share with your friends any way you like!

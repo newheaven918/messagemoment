@@ -4,30 +4,30 @@ import DiscoverSlide2 from './DiscoverSlide2';
 const Discover = () => {
   return (
     <div className="bg-dark px-[15px]">
-      <div className="max-w-[1320px] mx-auto">
-        <h2 className="font-bold text-[34px] text-center lg:text-[60px] tracking-[-.5px] lg:tracking-normal sm:max-w-[450px] lg:max-w-[934px] mx-auto text-white pt-14 pb-8 lg:pt-[70px] lg:pb-10">Discover more from MessageMoment</h2>
+      <div className="max-w-[1318px] mx-auto">
+        <h2 className="font-bold text-[34px] text-center lg:text-[60px] tracking-[-.5px] lg:tracking-[2px] sm:max-w-[450px] lg:max-w-[934px] mx-auto text-white lg:leading-[73px] pt-14 pb-8 lg:pt-[67px] lg:pb-9">Discover more from MessageMoment</h2>
         <DiscoverSlider />
-        <p className="text-white text-[26px] text-center mt-10 lg:mt-[60px] mb-10">
+        <p className="text-white text-[26px] text-center mt-10 lg:mt-[57px] mb-9 lg:tracking-[0.7px]">
           Use MessageMoment on any device via Browser<sup className="text-[60%]">1</sup>
         </p>
-        <div className="flex justify-center gap-5 lg:gap-12 pb-10 lg:pb-[58px]">
+        <div className="flex justify-center gap-5 lg:gap-[52.5px] pb-10 pr-[9px] pl-[2px] lg:pb-[59px]">
           <div className="device text-center">
             <svg className="w-[36px] h-[36px] mb-5 lg:h-[48px] lg:w-[28px] mx-auto" xmlns="http://www.w3.org/2000/svg" width="28" height="44" viewBox="0 0 28 44" fill="none">
               <path d="M24 36H4V8H24M24 0H4C1.78 0 0 1.78 0 4V40C0 41.0609 0.421427 42.0783 1.17157 42.8284C1.92172 43.5786 2.93913 44 4 44H24C25.0609 44 26.0783 43.5786 26.8284 42.8284C27.5786 42.0783 28 41.0609 28 40V4C28 1.78 26.2 0 24 0Z" fill="white" />
             </svg>
-            <p className="text-white">Phone</p>
+            <p className="text-white pl-[1px] pt-[2px] w-[45px]">Phone</p>
           </div>
-          <div className="device text-center">
-            <svg className="w-[36px] h-[36px] mb-5 lg:h-[48px] lg:w-[48px] mx-auto" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <div className="device pl-[-3px] text-center">
+            <svg className="w-[36px] h-[36px] mb-5 lg:h-[48px] lg:w-[55px] mx-auto" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
               <path d="M8 12H40V32H8M40 36C41.0609 36 42.0783 35.5786 42.8284 34.8284C43.5786 34.0783 44 33.0609 44 32V12C44 9.78 42.2 8 40 8H8C5.78 8 4 9.78 4 12V32C4 33.0609 4.42143 34.0783 5.17157 34.8284C5.92172 35.5786 6.93913 36 8 36H0V40H48V36H40Z" fill="white" />
             </svg>
             <p className="text-white">Desktop</p>
           </div>
           <div className="device text-center">
-            <svg className="w-[36px] h-[36px] mb-5 lg:h-[48px] lg:w-[48px] mx-auto" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <svg className="w-[36px] h-[36px] mb-5 lg:h-[48px] lg:w-[48px] pr-[1px] mx-auto" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
               <path d="M38 36H10V12H38M42 8H6C3.78 8 2 9.78 2 12V36C2 37.0609 2.42143 38.0783 3.17157 38.8284C3.92172 39.5786 4.93913 40 6 40H42C43.0609 40 44.0783 39.5786 44.8284 38.8284C45.5786 38.0783 46 37.0609 46 36V12C46 9.78 44.2 8 42 8Z" fill="white" />
             </svg>
-            <p className="text-white">Tablet</p>
+            <p className="text-white ">Tablet</p>
           </div>
           <div className="device text-center">
             <svg className="w-[36px] h-[36px] mb-5 lg:h-[48px] lg:w-[48px] mx-auto" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
@@ -43,7 +43,7 @@ const Discover = () => {
             <p className="text-white">Consoles</p>
           </div>
         </div>
-        <div className="disclaimer max-w-[1096px] mx-auto pt-5 border-t border-t-white border-opacity-20 pb-9 text-center">
+        <div className="disclaimer max-w-[1096px] mx-auto pt-[16px] border-t border-t-white border-opacity-20 pb-9 text-center">
           <p className="text-[11px] text-white lg:text-[13px] font-medium">
             <sup className="text-[60%]">1</sup>Disclaimer: Compatibility may vary across different devices and operating systems.
           </p>

@@ -51,7 +51,7 @@ const DiscoverSlider = () => {
   }
 
   return (
-    <div className="relative max-w-[1200px] mx-auto">
+    <div className="relative max-w-[1250px] mx-auto">
       <div className="slider-container max-w-[1200px] mx-auto relative -mr-[15px] -ml-[15px] sm:mx-auto lg:mx-0 sm:hidden">
         <div ref={carousel} className="sliders flex gap-[10px] max-w-[1100px] px-[90px] mx-auto overflow-x-scroll scroll-smooth pb-10">
           {dis.map((item, i) => {
@@ -165,19 +165,19 @@ const DiscoverSlider = () => {
         // autoplay={true}
         className="mySwiper max-w-[1100px] discover"
       >
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
           <Image src={discover1} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Secure</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
           <Image src={discover2} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Private</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
           <Image src={discover3} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Browser Based</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px] relative">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px] relative">
           <Image src={discover4} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Project Mode</p>
           <svg className="absolute top-[10px] right-[10px]" xmlns="http://www.w3.org/2000/svg" width="68" height="50" viewBox="0 0 68 50" fill="none">
@@ -186,19 +186,19 @@ const DiscoverSlider = () => {
             <path d="M0 26.28V23.498H4.888V19H7.722V23.498H12.584V26.28H7.722V30.778H4.888V26.28H0Z" fill="#4DB5FF" />
           </svg>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
           <Image src={discover1} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Secure</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
           <Image src={discover2} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Private</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
           <Image src={discover3} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Browser Based</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[30px] relative">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px] relative">
           <Image src={discover4} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
           <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Project Mode</p>
 
@@ -210,7 +210,7 @@ const DiscoverSlider = () => {
         </SwiperSlide>
       </Swiper>
 
-      <div className="hidden z-10 sm:block left absolute top-1/2 transform -translate-y-1/2 left-0">
+      <div className="hidden z-10 sm:block left absolute top-1/2 transform -translate-y-1/2 left-300">
         <svg className="cursor-pointer" onClick={() => swiperRef.current.swiper.slidePrev()} xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
           <path d="M19.2265 30.84C19.722 31.3404 20 32.0162 20 32.7204C20 33.4246 19.722 34.1004 19.2265 34.6008C18.9832 34.8479 18.6932 35.0441 18.3733 35.178C18.0535 35.312 17.7102 35.3809 17.3634 35.3809C17.0167 35.3809 16.6734 35.312 16.3535 35.178C16.0336 35.0441 15.7436 34.8479 15.5003 34.6008L0.772227 19.5728C0.277419 19.0713 -8.04072e-07 18.395 -7.73275e-07 17.6905C-7.42478e-07 16.9859 0.277419 16.3097 0.772228 15.8081L15.5003 0.780099C15.7436 0.533029 16.0336 0.336822 16.3535 0.202895C16.6734 0.0689692 17.0167 -1.30406e-07 17.3634 -1.15248e-07C17.7102 -1.00091e-07 18.0535 0.0689692 18.3734 0.202896C18.6932 0.336822 18.9832 0.533029 19.2265 0.780099C19.722 1.28052 20 1.9563 20 2.66053C20 3.36476 19.722 4.04053 19.2265 4.54095L7.14799 17.6962L19.2265 30.84Z" fill="white" />
         </svg>

@@ -45,14 +45,14 @@ const Steps = () => {
 
   return (
     <div className="relative">
-      <div ref={carousel} className="steps-desktop sliders flex gap-[10px] sm:gap-5 overflow-x-scroll scroll-smooth px-[90px] sm:px-0 sm:overflow-x-hidden -mx-[15px] sm:mx-auto pb-10">
+      <div ref={carousel} className="steps-desktop sliders flex gap-[10px] sm:gap-5 overflow-x-scroll scroll-smooth px-[90px] sm:px-0 sm:overflow-x-hidden -mx-[15px] sm:mx-auto pb-[23px]">
         {steps.map((step, i) => {
           return (
-            <div className={`step bg-white rounded-[20px] min-w-[180px] sm:min-w-0 relative p-5 sm:p-[30px] cursor-pointer ${index === i ? 'sm:w-[220px] lg:w-[260px] xl:flex-1' : 'sm:w-[220px] lg:w-[260px] bg-opacity-20 text-center'}`} key={step.id} onMouseEnter={() => handleHoverFunction(i)}>
-              <h2 className={`font-bold text-[34px] lg:text-[60px] absolute left-[30px] top-4 ${index === i ? 'text-blue' : 'text-white opacity-20'}`}>{step.id}</h2>
-              <Image src={step.img} alt="step" className={`w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] mt-[20px] object-cover ${index === i ? 'mx-auto sm:ml-[45px] lg:ml-[60px]' : 'mx-auto'} mb-[17px] sm:mb-5`} />
-              <span className={`font-jetBrain text-[13px]  ${index === i ? 'text-darkGrey' : 'text-white'}`}>{step.step}</span>
-              <p className={`font-bold text-[17px] lg:text-[26px] ${index === i ? 'text-dark' : 'text-white'}`}>{step.stepName}</p>
+            <div className={`step bg-white rounded-[20px] min-w-[180px] sm:min-w-0 relative pt-[16px] pl-[31px] sm:p-[24px] cursor-pointer ${index === i ? 'sm:w-[220px] lg:w-[260px] xl:flex-1' : 'sm:w-[216px] lg:w-[260px] bg-opacity-20 text-center'}`} key={step.id} onMouseEnter={() => handleHoverFunction(i)}>
+              <h2 className={`font-bold text-[34px] lg:text-[60px] absolute left-[30px] pl-[3px] pb-[2px] top-2 ${index === i ? 'text-blue' : 'text-white opacity-20'}`}>{step.id}</h2>
+              <Image src={step.img} alt="step" className={`w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] mt-[37px] object-cover ${index === i ? 'mx-auto sm:ml-[45px] lg:ml-[70px]' : 'mx-auto'} mb-[17px] `} />
+              <span className={`font-jetBrain text-[13px]  ${index === i ? '  sm:pl-[9px] text-darkGrey' : 'text-white ' }`}>{step.step}</span>
+              <p className={`font-bold text-[17px]  lg:leading-[26px] lg:text-[26px] pb-2 ${index === i ? 'lg:leading-[26px] pl-[12px] text-dark' : 'pl-[wpx] text-white'}`}>{step.stepName}</p>
               {i === index && <div className="absolute sm:hidden left-1/2 transform -translate-x-1/2 -bottom-10 h-1 rounded-full w-10 bg-white"></div>}
             </div>
           );

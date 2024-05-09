@@ -16,7 +16,7 @@ module.exports = {
       },
       fontFamily: {
         dm: 'DM Sans',
-        jetBrain: "'JetBrains Mono', monospace"
+        jetBrain: "'JetBrains Mono', monospace",
       },
       gridTemplateColumns: {
         sidebar: '300px auto' // 👈 for sidebar layout. adds grid-cols-sidebar class

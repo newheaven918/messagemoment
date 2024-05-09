@@ -5,7 +5,7 @@ import { useAppContext } from '@/context/AppContext';
 const SocialIcons = ({ pR = 'lg:pr-[30px]' }) => {
   const { mobileNav } = useAppContext();
   return (
-    <ul className={`flex ${pR}  gap-[15px]`}>
+    <ul className={`flex ${pR}  gap-[21px]`}>
       <li>
         <a href="#">
           {mobileNav ? (

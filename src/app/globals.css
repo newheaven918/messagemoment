@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700;9..40,800&family=JetBrains+Mono:wght@400;500;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-weight: 500;
+}
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+input,
+input::placeholder,
+input::-moz-placeholder,
+input::-webkit-input-placeholder,
+button,
+select {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 400;
+}
+button {
+  font-weight: 800;
+}
+
+/* width */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  width: 6px;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* width */
+.custom-scrollbar-white::-webkit-scrollbar {
+  width: 6px;
+  position: absolute;
+  left: 8px;
+}
+
+/* Track */
+.custom-scrollbar-white::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Handle */
+.custom-scrollbar-white::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  width: 6px;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.custom-scrollbar-white::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sliders::-webkit-scrollbar {
+  height: 0px;
+  width: 0;
+}
+
+/* Track */
+.sliders::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 20px;
+}
+
+/* Handle */
+.sliders::-webkit-scrollbar-thumb {
+  background: transparent;
+  height: 0px;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.sliders::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}

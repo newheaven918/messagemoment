@@ -1,0 +1,5 @@
+@media (max-width: 639.5px) {
+  .mySwiper.discover {
+    display: none;
+  }
+}

@@ -16,7 +16,7 @@ import bg4 from '/public/about/bg4.svg';
 import dedicated1 from '/public/about/dedicated1.svg';
 import dedicated2 from '/public/about/dedicated2.svg';
 import dedicated3 from '/public/about/dedicated3.svg';
-import AboutTwoColumnSection from '@/components/ConverseSection';
+import AboutTwoColumnSection from '@/components/AboutTwoColumnSection';
 import { useAppContext } from '@/context/AppContext';
 import { useEffect } from 'react';
 import Slider from '@/components/Slider/Slider';

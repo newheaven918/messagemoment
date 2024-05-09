@@ -7,12 +7,12 @@ const NavItems = ({ classes = 'pl-[50px]', color = 'text-black' }) => {
     <>
       <ul className={`lg:flex gap-[31px] lg:pl-[50px] items-center ${classes}`}>
         <li>
-          <Link href="/about" className={`font-medium text-base ${color}`}>
+          <Link href="#" className={`font-medium text-base ${color}`}>
             About
           </Link>
         </li>
         <li>
-          <Link href="/faqs" className={`font-medium text-base ${color}`}>
+          <Link href="#" className={`font-medium text-base ${color}`}>
             Help & Support
           </Link>
         </li>

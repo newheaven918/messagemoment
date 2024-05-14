@@ -35,7 +35,7 @@ const CloudflareTurnstile = () => {
   return (
     <>
       <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></Script>
-      <div className="cf-turnstile" data-sitekey="6LcWftwpAAAAAGU3ZJ2cO_iHFb0Wh-HlTXWcYyJs" data-theme="light" data-callback="javascriptCallback"></div>
+      <div className="cf-turnstile" data-sitekey="0x4AAAAAAAKTDe6f-KqwG_iW" data-theme="light" data-callback="javascriptCallback"></div>
       {/* <div id="container"></div> */}
     </>
   );

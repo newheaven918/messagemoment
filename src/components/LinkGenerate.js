@@ -95,22 +95,20 @@ const LinkGenerate = () => {
   };
 
   function copyTOClip() {
+    setShowCopy(true);
     setMessage('Link copied to clipboard');
     navigator.clipboard.writeText(generatedLink);
-    setShowCopy(true);
     setTimeout(() => {
       setMessage('Copy URL');
-      setShowCopy(false);
-    }, 1000);
+    }, 500);
   }
   function copyTOClipSecure() {
+    setShowCopy(true);
     setMessage('Link copied to clipboard');
     navigator.clipboard.writeText(generatedLink + ' ' + code);
-    setShowCopy(true);
     setTimeout(() => {
       setMessage('Copy URL');
-      setShowCopy(false);
-    }, 1000);
+    }, 500);
   }
 
   function handleQr() {

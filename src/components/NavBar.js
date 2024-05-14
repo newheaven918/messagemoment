@@ -14,14 +14,22 @@ const NavBar = () => {
   const { mobileNav, setMobileNav, setReloadHome } = useAppContext();
   const router = useRouter();
 
-  const handleScroll = () => {
-    router.push(`/#linkGenerate`);
+  const handleScroll = (event) => {
+    const headerOffset = 85;  // Height of your fixed header
+    const element = document.getElementById("linkGenerate");
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+    });
     setMobileNav(false);
     setReloadHome(true);
   };
 
   return (
-    <header className={`lg:static lg:h-auto lg:bg-white border-t-[5px] border-t-blue ${mobileNav ? 'bg-blue border-b border-b-white h-screen fixed z-[100] w-full' : 'bg-white'}`}>
+    <header className={`lg:fixed w-screen z-[9999] lg:h-auto lg:bg-white border-t-[5px] border-t-blue top-0 ${mobileNav ? 'bg-blue border-b border-b-white h-screen fixed z-[100] w-full' : 'bg-white'}`}>
       <nav className={`flex items-center w-full max-w-[1440px] mx-auto px-[17px] py-[20px] md:px-[60px] md:py-[17px] ${mobileNav ? 'pb-[19px] border-b border-b-white border-opacity-10' : ''}`}>
         <SiteLogo width="w-[150px]" />
         <SiteLogoWhite />
@@ -29,7 +37,7 @@ const NavBar = () => {
           <NavItems classes={` text-black`} />
           <div className="right lg:flex items-center">
             <SocialIcons />
-            <HeaderButton event={() => router.push(`/#linkGenerate`)} classes={`bg-blue text-white`} name="Start" />
+            <HeaderButton event={() => handleScroll()} classes={`bg-blue text-white`} name="Start" />
           </div>
         </div>
         <button className="mobile-menu lg:hidden ml-auto mr-[7px] bg-blue rounded-md h-[46px] w-[46px] text-center" onClick={() => setMobileNav(!mobileNav)}>

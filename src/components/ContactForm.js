@@ -85,21 +85,21 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-b from-blue-10 from-0% via-blue-0 via-60% to-white to-90% px-[15px] pb-[50px] lg:pb-[100px] ">
+      <div className="bg-gradient-to-b from-blue-10 from-0% via-blue-0 via-60% to-white to-90% px-[15px] pb-[50px] lg:mt-[86px] lg:pb-[100px] ">
         <div className="flex items-center flex-col">
           <Image src={icon} className="mt-[50px] w-[80px] h-[80px] lg:w-[128px] lg:h-[128px]" alt="email" />
-          <h2 className="text-4xl text-dark mt-[30px] font-bold mb-7">Contact Us</h2>
-          <p className="text-[17px] text-center text-dark">
+          <h2 className="text-[43px] leading-[40px] text-dark mt-[37px] font-bold mb-[34px]">Contact Us</h2>
+          <p className="text-[17px] text-center text-dark tracking-[0.2px]">
             Need answers or help? We might have answered your question in our{' '}
             <Link href="/faqs" className="text-blue">
               FAQs
             </Link>
             .{' '}
           </p>
-          <p className="mb-[30px] text-[17px] text-center mt-2 text-dark">Otherwise complete this form on the topic relevant to your query.</p>
+          <p className="mb-[28px] text-[17px] text-center mt-2 text-dark">Otherwise complete this form on the topic relevant to your query.</p>
         </div>
 
-        <form className="border rounded-[10px] max-w-[1096px] pt-[50px] pb-[39px] px-5 sm:px-12 lg:px-28 mx-auto border-black border-opacity-10 bg-white flex flex-col gap-[15px] lg:gap-5 w-full" onSubmit={handleForm}>
+        <form className="border rounded-[10px] max-w-[1096px] pt-[49px] pb-[40px] px-5 sm:px-12 lg:pl-[110px] lg:pr-[114px] mx-auto border-black border-opacity-10 bg-white flex flex-col gap-[15px] lg:gap-[18px] w-full" onSubmit={handleForm}>
           <div className="flex flex-wrap md:flex-nowrap gap-[15px] md:gap-5">
             <div className="w-full">
               <label className="block text-[17px] font-medium mb-[10px]" htmlFor="firstName">
@@ -177,7 +177,7 @@ const ContactForm = () => {
           <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row items-center justify-between">
             <CloudflareTurnstile />
             <div className="w-full lg:w-auto">
-              <button onClick={() => setShowPopup(true)} disabled={!activeBtn} className={`shadow lg:w-[236px] h-[46px] focus:shadow-outline focus:outline-none text-white font-bold font-jetBrain text-[15px] py-2 px-4 rounded-md w-full ${activeBtn ? 'bg-blue' : 'bg-lightGrey'}`} type="button">
+              <button onClick={() => setShowPopup(true)} disabled={!activeBtn} className={`shadow mr-[-4px] mt-[4px] lg:w-[236px] h-[46px] focus:shadow-outline focus:outline-none text-white font-bold font-jetBrain text-[15px] py-2 px-4 rounded-md w-full ${activeBtn ? 'bg-blue' : 'bg-lightGrey'}`} type="button">
                 Send
               </button>
             </div>

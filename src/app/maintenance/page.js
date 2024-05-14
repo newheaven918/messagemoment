@@ -9,7 +9,7 @@ const page = () => {
       <LogoHeader />
       <div className="lg:bg-gradient-to-b from-blue-10 from-0% via-blue-0 via-60% to-white to-90% border-t border-black border-opacity-10">
         <div className="max-w-[720px] mx-auto">
-          <div className={`px-[15px] pt-[239px] pb-[218px] lg:pt-[258px] lg:pb-[224px]`}>
+          <div className={`px-[15px] pt-[239px] pb-[218px] lg:pt-[240px] lg:pb-[224px]`}>
             <div className="flex justify-center flex-col items-center">
               <div className="max-w-[470px] h-[470px] w-full rounded-full bg-opacity-20 lg:bg-opacity-50 bg-blue  blur-[50px] absolute z-10"></div>
               <div className=" relative bg-white border border-black border-opacity-10 flex justify-center flex-col items-center max-w-[720px] z-20 rounded-[10px] w-full px-7">

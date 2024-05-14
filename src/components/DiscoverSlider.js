@@ -165,21 +165,21 @@ const DiscoverSlider = () => {
         // autoplay={true}
         className="mySwiper max-w-[1100px] discover"
       >
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[71px] pb-[27px]">
           <Image src={discover1} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
-          <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Secure</p>
+          <p className="text-dark text-[26px] mt-[25px] text-center font-bold">Secure</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[71px] pb-[27px]">
           <Image src={discover2} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
-          <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Private</p>
+          <p className="text-dark text-[26px] mt-[25px] text-center font-bold">Private</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px]">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[71px] pb-[27px]">
           <Image src={discover3} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
-          <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Browser Based</p>
+          <p className="text-dark text-[26px] mt-[25px] text-center font-bold">Browser Based</p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[70px] pb-[28px] relative">
+        <SwiperSlide className="bg-white rounded-[20px] w-1/4 pt-[71px] pb-[27px] relative">
           <Image src={discover4} className="mx-auto lg:h-20 lg:w-20" alt="Image" />
-          <p className="text-dark text-[26px] mt-[27px] text-center font-bold">Project Mode</p>
+          <p className="text-dark text-[26px] mt-[25px] text-center font-bold">Project Mode</p>
           <svg className="absolute top-[10px] right-[10px]" xmlns="http://www.w3.org/2000/svg" width="68" height="50" viewBox="0 0 68 50" fill="none">
             <circle opacity="0.1" cx="43" cy="25" r="25" fill="#4DB5FF" />
             <path d="M41.2298 9.99227C37.9483 9.99227 35.0328 12.1053 34.0166 15.2242C32.9737 15.4392 31.9886 15.8738 31.1267 16.4991C30.2649 17.1245 29.5461 17.9262 29.0183 18.851C27.3725 21.6955 27.7483 25.2715 29.9531 27.7097C29.2724 29.7518 29.5061 31.9866 30.5932 33.8358C32.2289 36.6904 35.5202 38.1534 38.7409 37.4726C39.4461 38.2685 40.3128 38.9049 41.2834 39.3393C42.2539 39.7738 43.3059 39.9963 44.3692 39.9921C47.6507 39.9921 50.5662 37.8791 51.5824 34.7602C53.6955 34.3232 55.5141 33.0024 56.5706 31.1334C58.2265 28.2889 57.8507 24.7129 55.6462 22.2747V22.2646C55.9825 21.2552 56.0993 20.1856 55.989 19.1274C55.8786 18.0692 55.5435 17.0468 55.0062 16.1285C53.3701 13.2839 50.0784 11.8206 46.8682 12.5013C46.1597 11.7075 45.2907 11.0734 44.3187 10.6408C43.3466 10.2082 42.2937 9.98718 41.2298 9.99227ZM41.2298 11.943L41.2197 11.9531C42.5405 11.9531 43.8105 12.4102 44.8264 13.2537C44.7857 13.2738 44.7043 13.3246 44.6435 13.3552L38.67 16.7991C38.3651 16.9719 38.1822 17.2969 38.1822 17.6526V25.7392L35.612 24.256V17.5713C35.6114 16.0801 36.2028 14.6498 37.2561 13.5944C38.3095 12.539 39.7387 11.9453 41.2298 11.943ZM48.4258 14.2973C49.4157 14.2954 50.3886 14.5548 51.246 15.0494C52.1035 15.544 52.8152 16.2562 53.3092 17.1141C53.9594 18.252 54.2031 19.5828 53.9795 20.873C53.9388 20.8424 53.8579 20.8021 53.8067 20.7715L47.8333 17.3171C47.683 17.2321 47.5133 17.1875 47.3406 17.1875C47.168 17.1875 46.9983 17.2321 46.848 17.3171L39.8482 21.3604V18.3938L45.6288 15.0514C46.4787 14.5587 47.4434 14.2984 48.4258 14.2969V14.2973ZM33.6512 17.3679V24.4692C33.6512 24.8248 33.8341 25.1398 34.139 25.3227L41.1283 29.3559L38.5476 30.849L32.7772 27.5167C31.4876 26.7694 30.5473 25.5409 30.1626 24.1009C29.7779 22.6609 29.9803 21.1271 30.7253 19.8362C31.3825 18.697 32.4176 17.824 33.6512 17.3679ZM47.0409 19.1253L52.8215 22.4576C55.5138 24.012 56.4277 27.4458 54.8734 30.1381L54.8834 30.1482C54.2232 31.2861 53.1869 32.1597 51.9575 32.6068V25.5052C51.9575 25.1495 51.7747 24.8245 51.4698 24.652L44.4703 20.6084L47.0409 19.1253ZM42.7943 21.5738L45.7407 23.2805V26.6837L42.7943 28.3904L39.8482 26.6837V23.2805L42.7943 21.5738ZM47.4268 24.256L49.9971 25.7392V32.4139C49.9971 35.5226 47.4776 38.0421 44.3793 38.0421V38.032C43.0686 38.032 41.7885 37.5749 40.7827 36.7318C40.8234 36.7116 40.9148 36.6605 40.9656 36.6299L46.9391 33.186C47.244 33.0132 47.4369 32.6882 47.4265 32.3325L47.4268 24.256ZM45.7504 28.6244V31.5906L39.9699 34.9229C37.2776 36.4672 33.8438 35.5529 32.2894 32.8707H32.2995C31.6393 31.7429 31.4053 30.402 31.6288 29.1118C31.6695 29.1424 31.7509 29.1827 31.8016 29.2133L37.7751 32.6677C37.9254 32.7526 38.0951 32.7973 38.2677 32.7973C38.4404 32.7973 38.6101 32.7526 38.7604 32.6677L45.7504 28.6244Z" fill="#4DB5FF" />
@@ -210,12 +210,12 @@ const DiscoverSlider = () => {
         </SwiperSlide>
       </Swiper>
 
-      <div className="hidden z-10 sm:block left absolute top-1/2 transform -translate-y-1/2 left-300">
+      {/* <div className="hidden z-10 sm:block left absolute top-1/2 transform -translate-y-1/2 left-300">
         <svg className="cursor-pointer" onClick={() => swiperRef.current.swiper.slidePrev()} xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
           <path d="M19.2265 30.84C19.722 31.3404 20 32.0162 20 32.7204C20 33.4246 19.722 34.1004 19.2265 34.6008C18.9832 34.8479 18.6932 35.0441 18.3733 35.178C18.0535 35.312 17.7102 35.3809 17.3634 35.3809C17.0167 35.3809 16.6734 35.312 16.3535 35.178C16.0336 35.0441 15.7436 34.8479 15.5003 34.6008L0.772227 19.5728C0.277419 19.0713 -8.04072e-07 18.395 -7.73275e-07 17.6905C-7.42478e-07 16.9859 0.277419 16.3097 0.772228 15.8081L15.5003 0.780099C15.7436 0.533029 16.0336 0.336822 16.3535 0.202895C16.6734 0.0689692 17.0167 -1.30406e-07 17.3634 -1.15248e-07C17.7102 -1.00091e-07 18.0535 0.0689692 18.3734 0.202896C18.6932 0.336822 18.9832 0.533029 19.2265 0.780099C19.722 1.28052 20 1.9563 20 2.66053C20 3.36476 19.722 4.04053 19.2265 4.54095L7.14799 17.6962L19.2265 30.84Z" fill="white" />
         </svg>
-      </div>
-      <div className="hidden z-10 sm:block right absolute top-1/2 transform -translate-y-1/2 right-0">
+      </div> */}
+      {/* <div className="hidden z-10 sm:block right absolute top-1/2 transform -translate-y-1/2 right-0">
         <svg className="cursor-pointer" onClick={() => swiperRef.current.swiper.slideNext()} xmlns="http://www.w3.org/2000/svg" width="26" height="42" viewBox="0 0 26 42" fill="none">
           <g filter="url(#filter0_d_988_8811)">
             <path d="M3.77345 8.16001C3.27795 7.65958 3 6.98381 3 6.27958C3 5.57535 3.27795 4.89958 3.77345 4.39915C4.01676 4.15209 4.30679 3.95588 4.62665 3.82195C4.94651 3.68803 5.28981 3.61906 5.63657 3.61906C5.98333 3.61906 6.32663 3.68803 6.64649 3.82195C6.96635 3.95588 7.25638 4.15209 7.49969 4.39915L22.2278 19.4272C22.7226 19.9287 23 20.605 23 21.3095C23 22.0141 22.7226 22.6903 22.2278 23.1919L7.49969 38.2199C7.25638 38.467 6.96635 38.6632 6.64649 38.7971C6.32663 38.931 5.98334 39 5.63657 39C5.28981 39 4.94651 38.931 4.62665 38.7971C4.30679 38.6632 4.01676 38.467 3.77345 38.2199C3.27796 37.7195 3 37.0437 3 36.3395C3 35.6352 3.27796 34.9595 3.77345 34.459L15.852 21.3038L3.77345 8.16001Z" fill="white" />
@@ -233,7 +233,7 @@ const DiscoverSlider = () => {
             </filter>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 };

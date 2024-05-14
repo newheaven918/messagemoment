@@ -59,7 +59,7 @@ const page = () => {
   return (
     <>
       <NavBar />
-      <div className="bg-gradient-to-b from-blue-10 from-0% via-blue-0 via-60% to-white to-90% px-[15px] border-t border-black border-opacity-5 pb-[10px] lg:pb-[35px]">
+      <div className="bg-gradient-to-b from-blue-10 from-0% via-blue-0 via-60% to-white to-90% mt-[84px] px-[15px] border-t border-black border-opacity-5 pb-[10px] lg:pb-[35px]">
         <div className="max-w-[1096px] mx-auto">
           <h3 className="text-2xl lg:text-[40px] font-bold pt-[50px] text-dark">Privacy Policy</h3>
           <DateButton />

@@ -13,7 +13,7 @@ const page = () => {
   return (
     <>
       <NavBar />
-      <ContactForm />
+      <ContactForm classname="mt-[84px] " />
       <Footer />
     </>
   );

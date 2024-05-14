@@ -5,14 +5,14 @@ import Link from 'next/link';
 const NavItems = ({ classes = 'pl-[50px]', color = 'text-black' }) => {
   return (
     <>
-      <ul className={`lg:flex gap-[31px] lg:pl-[50px] items-center ${classes}`}>
+      <ul className={`lg:flex gap-[31px] lg:pl-[49.5px] items-center ${classes}`}>
         <li>
-          <Link href="#" className={`font-medium text-base ${color}`}>
+          <Link href="/about" className={`font-medium  ${color}`}>
             About
           </Link>
         </li>
         <li>
-          <Link href="#" className={`font-medium text-base ${color}`}>
+          <Link href="/faqs" className={`font-medium text-base ${color}`}>
             Help & Support
           </Link>
         </li>

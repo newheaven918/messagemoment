@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ['./src/pages/**/*.{js,ts,jsx,tsx,mdx}', './src/components/**/*.{js,ts,jsx,tsx,mdx}', './src/app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
@@ -6,6 +7,7 @@ module.exports = {
       colors: {
         dark: '#363C4F',
         blue: '#494AF8',
+        HoverdBlue: '#4243df',
         'blue-10': 'rgba(73,74,248,.1)',
         'blue-0': 'rgba(73,74,248,0)',
         darkGrey: '#555555',
@@ -15,7 +17,7 @@ module.exports = {
         black: '#151515'
       },
       fontFamily: {
-        dm: 'DM Sans',
+        sans: ['DMSans', 'sans-serif'], // Ensuring DMSans is the first in the stack.
         jetBrain: "'JetBrains Mono', monospace",
       },
       gridTemplateColumns: {

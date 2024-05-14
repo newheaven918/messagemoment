@@ -7,8 +7,8 @@ import { useAppContext } from '@/context/AppContext';
 const SiteLogo = ({ width }) => {
   const { mobileNav } = useAppContext();
   return (
-    <Link href={`/`} className={`lg:block ${width} lg:w-[196px] ${mobileNav ? 'hidden' : 'block'}`}>
-      <Image className={`${width} lg:w-[196px]`} src={Logo} alt="Logo" />
+    <Link href={`/`} className={`lg:block ${width} lg:w-[197px] ${mobileNav ? 'hidden' : 'block'}`}>
+      <Image className={`${width} lg:w-[199px]`} src={Logo} alt="Logo" />
     </Link>
   );
 };

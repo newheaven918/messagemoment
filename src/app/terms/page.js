@@ -21,14 +21,14 @@ const page = () => {
     },
     {
       id: 2,
-      question: '2. Information Collection and Use',
-      answer: `By using MessageMoment, you agree to the following conditions of use: <br/><br/><ul className="list-disc pl-5">
-      <li> You will not use the platform for any illegal or unauthorized purpose. </li>
-      <li>You will not violate any laws in your jurisdiction.</li>
-      <li>You will not infringe upon the rights of others, including but not limited to, the right to privacy and intellectual property rights.</li>
-      <li>You will not use the platform in any manner that could damage, disable, overburden, or impair the platform.</li>
-      <li>You will not abuse or harm others in any manner through the use of the platform.</li>
-      <li>You represent and warrant that you are at least 16 years of age. If you are under 16 years of age, you may not use this platform without the express consent and supervision of a parent or legal guardian. By using this platform, you acknowledge and agree that you are solely responsible for complying with any and all laws and regulations applicable to you, including any age restrictions or other eligibility criteria.</li>
+      question: '2. Collections of Use',
+      answer: `By using MessageMoment, you agree to the following conditions of use: <br/><br/><ul className="list-disc pl-[24px] mb-[60px]">
+      <li className="mb-[2px]"> You will not use the platform for any illegal or unauthorized purpose. </li>
+      <li className="mb-[2px]">You will not violate any laws in your jurisdiction.</li>
+      <li className="mb-[1px]">You will not infringe upon the rights of others, including but not limited to, the right to privacy and intellectual property rights.</li>
+      <li className="mb-[1px]">You will not use the platform in any manner that could damage, disable, overburden, or impair the platform.</li>
+      <li className="mb-[1px]">You will not abuse or harm others in any manner through the use of the platform.</li>
+      <li className="mb-[1px]">You represent and warrant that you are at least 16 years of age. If you are under 16 years of age, you may not use this platform without the express consent and supervision of a parent or legal guardian. By using this platform, you acknowledge and agree that you are solely responsible for complying with any and all laws and regulations applicable to you, including any age restrictions or other eligibility criteria.</li>
     </ul>`
     },
     {
@@ -90,15 +90,15 @@ const page = () => {
   return (
     <>
       <NavBar />
-      <div className="bg-gradient-to-b from-blue-10 from-0% via-blue-0 via-60% to-white to-90% px-[15px] border-t border-black border-opacity-5 pb-[10px] lg:pb-[35px]">
-        <div className="max-w-[1096px] mx-auto">
-          <h3 className="text-2xl lg:text-[40px] font-bold pt-[50px] text-dark">Terms and Conditions of Use</h3>
+      <div className="bg-gradient-to-b from-blue-10 from-0% via-blue-0 via-60% to-white mt-[84px] to-90% px-[15px] border-t border-black border-opacity-5 pb-[10px] lg:pb-[35px]">
+        <div className="max-w-[1096px] pt-[7px] mx-auto">
+          <h3 className="text-2xl lg:text-[40px] font-bold pt-[54px] tracking-[1.5px] text-dark">Terms and Conditions of Use</h3>
           <DateButton />
-          <div className="privacy-lists pb-2">
+          <div className="privacy-lists pb-[22px]">
             {data.map(list => {
               return (
                 <div className="" key={list.id}>
-                  <h3 className="text-[17px] lg:text-[26px] font-bold text-blue mb-[15px] lg:mb-6">{list.question}</h3>
+                  <h3 className="text-[17px] lg:text-[26px] font-bold text-blue mb-[15px] lg:mb-[29px]">{list.question}</h3>
                   <div className="lg:text-[15px] text-[13px] font-medium max-h-min font-jetBrain lg:mb-9 mb-[15px]">{parse(list.answer, { replace: replaceAnchorTagsWithLinks })}</div>
                 </div>
               );
@@ -111,7 +111,7 @@ const page = () => {
               <p className="text-[15px] max-md:text-[13px] font-normal leading-normal max-h-min font-jetBrain break-all">https://www.flaticon.com/authors/basic-sheer/flat/8?author_id=1&type=standard</p>
               <p className="text-[15px] max-md:text-[13px] font-normal leading-normal max-h-min font-jetBrain text-lightGrey">Under Flaticon License</p>
             </div>
-            <div className="mb-8">
+            <div className="mb-[70px]">
               <p className="text-[15px] max-md:text-[13px] font-normal leading-normal max-h-min font-jetBrain break-all">https://www.freepik.com/free-vector/digital-device-mockup_4168605.htm#query=multi%20device%20mockup&position=23&from_view=search&track=ais"</p>
               <p className="text-[15px] max-md:text-[13px] font-normal leading-normal max-h-min font-jetBrain text-lightGrey">Image by rawpixel.com on Freepik</p>
             </div>

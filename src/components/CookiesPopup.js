@@ -12,7 +12,7 @@ const CookiesPopup = ({ handleCookiesPopup, showCookiesPopup, showPop, setShowPo
     setShowModal(false);
   }
   function cookiesRejected() {
-    console.log('Cookies Rejected!');
+    console.log('Cookies Rejected!'); 
     setShowModal(false);
   }
 

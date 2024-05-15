@@ -29,7 +29,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className={`lg:fixed w-screen z-[9999] lg:h-auto lg:bg-white border-t-[5px] border-t-blue top-0 ${mobileNav ? 'bg-blue border-b border-b-white h-screen fixed z-[100] w-full' : 'bg-white'}`}>
+    <header className={`lg:fixed w-[100%] z-[9999] lg:h-auto lg:bg-white border-t-[5px] border-t-blue border-b border-b-gray top-0 ${mobileNav ? 'bg-blue border-b border-b-white h-screen fixed z-[100] w-full' : 'bg-white'}`}>
       <nav className={`flex items-center w-full max-w-[1440px] mx-auto px-[17px] py-[20px] md:px-[60px] md:py-[17px] ${mobileNav ? 'pb-[19px] border-b border-b-white border-opacity-10' : ''}`}>
         <SiteLogo width="w-[150px]" />
         <SiteLogoWhite />

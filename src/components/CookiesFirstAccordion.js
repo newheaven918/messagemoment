@@ -21,7 +21,7 @@ const CookiesFirstAccordion = () => {
               <path fillRule="evenodd" clipRule="evenodd" d="M0.21967 0.21967C0.512563 -0.0732233 0.987437 -0.0732233 1.28033 0.21967L5.25 4.18934L9.21967 0.21967C9.51256 -0.0732233 9.98744 -0.0732233 10.2803 0.21967C10.5732 0.512563 10.5732 0.987437 10.2803 1.28033L5.78033 5.78033C5.48744 6.07322 5.01256 6.07322 4.71967 5.78033L0.21967 1.28033C-0.0732233 0.987437 -0.0732233 0.512563 0.21967 0.21967Z" fill="#292F52" />
             </svg>
           )}
-          <h3 onClick={handleButton} className="text-[15px] max-lg:text-[13px] font-normal cursor-pointer font-jetBrain py-4 pl-2">
+          <h3 onClick={handleButton} className="text-[15px] max-lg:text-[13px] font-normal cursor-pointer font-jetBrain py-4 pl-2 tracking-[1px]">
             Strictly necessary cookies
           </h3>
         </div>

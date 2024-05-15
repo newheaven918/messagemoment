@@ -49,7 +49,7 @@ const CookiesAccordion = ({ items }) => {
                     </svg>
                   )}
                 </div>
-                <h3 className="text-[15px] max-lg:text-[13px] font-normal cursor-pointer font-jetBrain pl-2 py-4" onClick={() => toggleClick(index)}>
+                <h3 className="text-[15px] max-lg:text-[13px] font-normal cursor-pointer font-jetBrain py-3" onClick={() => toggleClick(index)}>
                   {currentE.question}
                 </h3>
               </div>

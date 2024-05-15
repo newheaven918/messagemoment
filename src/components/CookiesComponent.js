@@ -51,7 +51,7 @@ const CookiesComponent = ({ showCookiesPopup, showPop, setShowPop }) => {
               <h5 className="text-blue text-[17px] leading-6 font-medium pb-[10px]">Cookie Usage</h5>
               <p className="text-[15px] pb-[10px] max-lg:text-[13px]  font-jetBrain leading-[23px] font-normal text-justify ">
                 We use cookies to ensure the basic functionalities of this website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full{' '}
-                <Link href="/privacy" className="underline">
+                <Link href="/privacy" target="_blank" rel="noopener noreferrer" className="underline">
                   Privacy Policy
                 </Link>
                 .

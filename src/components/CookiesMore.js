@@ -6,7 +6,7 @@ const CookiesMore = () => {
       <h5 className="text-blue text-[17px] leading-6 font-medium py-[10px]">More Information</h5>
       <p className="text-[15px] max-lg:text-[13px] pr-8 font-jetBrain leading-[23px] font-normal text-justify pb-3">
         For any queries in relation to our policy on cookies and your choices, please{' '}
-        <Link href="/contact" className="underline">
+        <Link href="/contact" target="_blank" rel="noopener noreferrer" className="underline">
           Contact Us
         </Link>
         .

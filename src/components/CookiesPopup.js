@@ -47,10 +47,10 @@ const CookiesPopup = ({ handleCookiesPopup, showCookiesPopup, showPop, setShowPo
                 </p>
                 {/*footer*/}
                 <div className="flex items-center justify-between px-5 pb-5 lg:p-6 gap-2 border-black border-opacity-10 rounded-b">
-                  <button className="bg-blue font-jetBrain text-[15px] w-[180px] h-[46px] rounded-md text-white ease-linear transition-all duration-150 hover:bg-opacity-80" type="button" onClick={cookiesAccepted}>
+                  <button className="bg-blue font-jetBrain text-[15px] w-[180px] h-[46px] rounded-md text-white ease-linear transition-all duration-250 hover:bg-opacity-80" type="button" onClick={cookiesAccepted}>
                     Accept All
                   </button>
-                  <button className="bg-lightGrey font-jetBrain text-[15px] w-[180px] h-[46px] rounded-md text-dark ease-linear transition-all duration-150 hover:bg-opacity-80" type="button" onClick={cookiesRejected}>
+                  <button className="bg-lightGrey font-jetBrain text-[15px] w-[180px] h-[46px] rounded-md text-dark ease-linear transition-all duration-250 hover:bg-opacity-80" type="button" onClick={cookiesRejected}>
                     Reject All
                   </button>
                 </div>
